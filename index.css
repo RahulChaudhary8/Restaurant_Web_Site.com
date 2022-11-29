@@ -1,0 +1,153 @@
+* {
+    font-family: 'Roboto', helvetica, Arial, sans-serif;
+
+}
+
+/* Header style */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.nav-items-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items-container > nav {
+    margin: right 32px;
+    font-size: 14px;
+}
+
+.brand-name {
+    color: orange;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex; 
+    justify-content: center;
+    align-items:  center;
+    
+    margin: 0px;
+}
+
+.nav-list > li {
+    margin-right: 8px;
+}
+
+.nav-list>li:last-child {
+    margin-right: 0px;
+}
+
+.nav-list>li:last-child {
+    margin-right: 0px;
+}
+
+.nav-list > li.active{
+    border-bottom: 1px solid orange;
+}
+
+.user-icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #eaeaea;
+    background: #eaeaea;
+}
+
+/* .Header styles */
+
+/* Hero section styles */
+.hero {
+    margin-bottom: 16px;
+}
+
+.hero>.img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 2.5rem;
+}
+
+.author {
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+/* Hero section styles */
+
+/* Title section body*/
+.meals>.title-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.title-section>.title {
+    text-transform: uppercase;
+    color: orange;
+}
+
+.search-container input{
+    height: 24px;
+    border-radius: 24px;
+    outline: none;
+    border: 1px solid #eaeaea;
+    padding: 8px 16px;
+    /* text-align: right; */
+}
+
+/* Title section body*/
+
+/* Pills styles */
+ 
+.pills{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.pills .pills-item{
+    margin: 16px;
+    border-radius: 24px;
+    padding: 8px;
+    border: 1px solid#eaeaea;
+    cursor: pointer;
+}
+
+.pill-count{
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    padding: 4px;
+}
+
+/* Pills styles */
+
+/* .Food cards styles */
+.food-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 16px;
+}
+
+.food-card{
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.food-card-thumbnail{
+    height: auto;
+    max-width: 100%;
+}
+
+/* .Food cards styles */
